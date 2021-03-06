@@ -128,9 +128,14 @@ header.sticky .navbar ul{
         padding: 40px;
     }
 
-    .section1 p, .section p {
-    font-size: 1.3em;
-    margin: 0px -10px;
+    .section1 p {
+        font-size: 1.3em;
+        margin: 0px -10px;
+    }
+
+    .section p{
+        font-size: 1.3em;
+        margin: 0px -10px;
     }
 
     .section1 h2, .section h2 {
