@@ -122,6 +122,8 @@ header.sticky .navbar ul{
     font-size: 1.3em;
 }
 
+
+
 /* RESPONSIVE DESIGN */
 @media (max-width: 990px){
     .section1, section, header{
@@ -130,7 +132,7 @@ header.sticky .navbar ul{
 
     .section1 p {
         font-size: 1.3em;
-        margin: 0px -10px;
+        margin: 0px -67px;
     }
 
     .section p{
@@ -178,7 +180,11 @@ header.sticky .navbar ul{
     } */
 
     .nav ul li a {
-        font-size: 2em;
+        display: inline-block;
+        color: #fff;
+        padding: 20px 10px;
+        font-size: 1.6em;
+        text-decoration: none;
     }
 
     header.sticky .toggle{
