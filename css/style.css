@@ -124,11 +124,16 @@ header.sticky .navbar ul{
 
 /* RESPONSIVE DESIGN */
 @media (max-width: 990px){
-    section, header{
+    .section1, section, header{
         padding: 40px;
     }
 
-    .section h2 {
+    .section1 p, .section p {
+    font-size: 1.3em;
+    margin: 0px -10px;
+    }
+
+    .section1 h2, .section h2 {
         font-size: 2em;
     }
 
