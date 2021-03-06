@@ -102,18 +102,23 @@ header.sticky .navbar ul{
     transition: .5s;
 }
 
-.section {
-    margin-top: 50vh;
+.section1 {
+    margin-top: 40vh;
     padding: 100px;
 }
 
-.section h2{
+.section {
+    /* margin-top: 5vh; */
+    padding: 100px;
+}
+
+.section1 h2, .section h2{
     font-size: 3em;
     font-weight: 600;
     margin-bottom: 50px;
 }
 
-.section p{
+.section1 p, .section p{
     font-size: 1.3em;
 }
 
