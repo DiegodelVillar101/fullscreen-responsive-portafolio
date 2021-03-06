@@ -10,9 +10,10 @@
     <header class="header">
         <img src="./img/bg.jpg" class="banner" alt="header">
         <a href="#" class="logo">Diego del Villar</a>
+        <div class="toggle"></div>
         <nav class="navbar">
             <ul>
-               <li><a href="#">Home</a></li>
+               <li><a href="#home">Home</a></li>
                <li><a href="#">About</a></li>
                <li><a href="#">Services</a></li>
                <li><a href="#">Portafolio</a></li>
@@ -22,11 +23,32 @@
         </nav>
     </header>
 
+    <section class="section">
+        <h2 id="home">Diego del Villar</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ipsam unde dolores iure ut. 
+            Labore architecto in minima amet rerum, voluptatum debitis ipsam sit, repellendus fuga, reiciendis quas. 
+            Beatae, voluptate. <br> <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ipsam unde dolores iure ut. 
+            Labore architecto in minima amet rerum, voluptatum debitis ipsam sit, repellendus fuga, reiciendis quas. 
+            Beatae, voluptate. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ipsam unde dolores iure ut. 
+            Labore , voluptatum debitis ipsam sit, repellendus fuga, reiciendis quas. Beatae, voluptate.
+            Lorem adipisicing elit. Necessitatibus ipsam unde dolores iure ut. 
+            Labore architecto in minima amet rerum, voluptatum debitis ipsam sit, repellendus fuga, reiciendis quas. 
+            Beatae, voluptate. <br> <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ipsam unde dolores iure ut. 
+            Labore architecto in minima amet rerum, voluptatum debitis ipsam sit, repellendus fuga, reiciendis quas. 
+            Beatae, voluptate. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ipsam unde dolores iure ut. 
+            Labore architecto in minima amet rerum, voluptatum debitis ipsam sit, repellendus fuga, reiciendis quas. 
+            Beatae, voluptate.</p>
+    </section>
+
     <script>
         window.addEventListener("scroll", function(){
             const header = document.querySelector('header');
             header.classList.toggle('sticky', window.scrollY > 0);
         });
+
+        documet.querySelector('.toggle').onclick = function (){
+            this.classList.toggle('active');
+        }
     </script>
 </body>
 </html>
