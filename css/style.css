@@ -89,7 +89,7 @@ header.sticky .navbar ul{
 .navbar ul li a{
     display: inline-block;
     color: #fff;
-    padding: 10px 15px;
+    padding: 10px 10px;
     font-size: 1.2em;
     text-decoration: none;
 }
@@ -148,6 +148,13 @@ header.sticky .navbar ul{
         cursor: pointer;
         background: #fff url(../img/menu.png);
         background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    header.sticky .toggle.active{
+        background: #fff url(../img/close.png);
+        background-size: 25px;
         background-repeat: no-repeat;
         background-position: center;
     }
